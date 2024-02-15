@@ -29,7 +29,9 @@
 .custom .trigger.left{ 
     height: 1080px;
     width: 1440px;
-    background: url(https://i.imgur.com/k11PmGX.png);
+    top: 9px;
+    left: 256px;
+    background: url(https://i.imgur.com/4BHxh6f.png);
     position: absolute;
     background-repeat:no-repeat;
 }
@@ -37,7 +39,9 @@
 .custom .trigger.right{
     height: 1080px;
     width: 1440px;
-    background: url(https://i.imgur.com/oSKoz58.png);
+    top: 9px;
+    left: 1018px;
+    background: url(https://i.imgur.com/lav4nj7.png);
     position: absolute;
     background-repeat:no-repeat;
 }
