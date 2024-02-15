@@ -1,7 +1,54 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
 <body>
-<h1>Hello World</h1>
-<p>SirChioXXIII's Gamepad skins</p>
+  <header>
+    <h1>My Portfolio</h1>
+    <nav>
+      <ul>
+        <li><a href="#controllers">Controller Overlays</a></li>
+        <li><a href="#helmets">Helmet Designs</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="controllers" class="portfolio-section">
+    <h2>Controller Overlays</h2>
+    <div class="gallery">
+      <div class="item">
+        <img src="controller1.jpg" alt="Controller Overlay 1">
+        <p>Controller Overlay 1</p>
+      </div>
+      <div class="item">
+        <img src="controller2.jpg" alt="Controller Overlay 2">
+        <p>Controller Overlay 2</p>
+      </div>
+      <!-- Add more controller overlays as needed -->
+    </div>
+  </section>
+
+  <section id="helmets" class="portfolio-section">
+    <h2>Helmet Designs</h2>
+    <div class="gallery">
+      <div class="item">
+        <img src="helmet1.jpg" alt="Helmet Design 1">
+        <p>Helmet Design 1</p>
+      </div>
+      <div class="item">
+        <img src="helmet2.jpg" alt="Helmet Design 2">
+        <p>Helmet Design 2</p>
+      </div>
+      <!-- Add more helmet designs as needed -->
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+  </footer>
 </body>
 </html>
