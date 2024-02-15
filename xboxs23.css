@@ -27,17 +27,21 @@
 }
 
 .custom .trigger.left{ 
-    height: 992px;
-    width: 1198px;
-    background: url(https://i.imgur.com/03FLbvc.png);
+    height: 173px;
+    width: 156px;
+    top: 10px;
+    left: 232px;
+    background: url(https://i.imgur.com/ga9naEr.png);
     position: absolute;
     background-repeat:no-repeat;
 }
 
 .custom .trigger.right{
-    height: 992px;
-    width: 1198px;
-    background: url(https://i.imgur.com/3ZVLNjj.png);
+    height: 173px;
+    width: 156px;
+    top: 10px;
+    left: 808px;
+    background: url(https://i.imgur.com/JhFqTcI.png);
     position: absolute;
     background-repeat:no-repeat;
 }
