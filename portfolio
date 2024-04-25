@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Design Shop</title>
+    <style>
+        /* Add your CSS styles here */
+        /* This is just a basic example, customize it to fit your design */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .product {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .product-item {
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            text-align: center;
+        }
+        form {
+            margin-top: 20px;
+            text-align: center;
+        }
+        input[type="text"], textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Design Shop</h1>
+    </header>
+    <div class="container">
+        <h2>Featured Designs</h2>
+        <div class="product">
+            <div class="product-item">
+                <img src="design1.jpg" alt="Design 1">
+                <h3>Design 1</h3>
+                <p>Description of Design 1</p>
+                <p>Price: $XX.XX</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="design2.jpg" alt="Design 2">
+                <h3>Design 2</h3>
+                <p>Description of Design 2</p>
+                <p>Price: $XX.XX</p>
+                <button>Add to Cart</button>
+            </div>
+            <!-- Add more product items as needed -->
+        </div>
+        
+        <h2>Custom Order Form</h2>
+        <form action="submit_order.php" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required><br>
+            <input type="email" name="email" placeholder="Your Email" required><br>
+            <textarea name="message" placeholder="Describe your custom design request" rows="4" required></textarea><br>
+            <input type="submit" value="Submit Order">
+        </form>
+    </div>
+</body>
+</html>
